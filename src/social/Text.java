@@ -2,13 +2,15 @@ package social;
 
 import java.util.ArrayList;
 
-public class Text {
+public class Text extends Submission{
 
 	private ArrayList<String> text;
 
-	public Text(String text) {
-		super();
-		writeText(text);
+	
+
+	public Text(String author, long timestamp, int likes, ArrayList<String> comments, ArrayList<String> text) {
+		super(author, timestamp, likes, comments);
+		this.text = text;
 	}
 
 	private void writeText(String s) {
