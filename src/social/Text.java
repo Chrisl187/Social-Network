@@ -12,7 +12,7 @@ public class Text {
 	
 	private void writeText(String s) {
 		for(int i = 0; i < 3;i++) {
-			
+			//Joseph
 		}
 	}
 	
