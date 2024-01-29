@@ -15,5 +15,14 @@ public class NewsFeed {
 	private void addSubmission(Submission message) {
 		messages.add(message);
 	}
+	
+	public void showByUser(String user) {
+		ArrayList<Submission> submissions = new ArrayList<>();
+		for (Submission s: messages) {
+			if(s.getAuthor()==user) {
+				submissions.add(s);
+			}
+		}
+	}
 
 }
