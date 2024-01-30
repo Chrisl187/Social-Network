@@ -58,7 +58,6 @@ public class NewsFeed {
 				System.out.println("Author: " + s.getAuthor() + "\nTimestamp: " + s.getTimestamp() + "\n Title: " + ((Picture) s).getTitle() + "\n Picture: " + ((Picture) s).getFilename()  + "\nLikes: " +  s.getLikes() + "\nComments: " + s.getComments() + "\n");
 			}
 		}
-
 	}
 
 	public void deleteSubmission(int pos) {
