@@ -1,6 +1,9 @@
 package social;
 
+
+
 import java.util.ArrayList;
+
 
 public class NewsFeed {
 	
@@ -38,9 +41,8 @@ public class NewsFeed {
 		return submissions;
 	}
 
-	@Override
 	public void printAllSubmission() {
-		
+	
 	}
 	
 	
@@ -53,7 +55,7 @@ public class NewsFeed {
 	
 	
 	public void deleteSubmission(int pos) {
-		
+		messages.remove(pos);
 	}
 	
 

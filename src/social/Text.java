@@ -1,5 +1,6 @@
 package social;
 
+
 import java.util.ArrayList;
 
 public class Text extends Submission{
